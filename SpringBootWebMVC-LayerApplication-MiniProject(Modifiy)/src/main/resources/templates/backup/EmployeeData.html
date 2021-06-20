@@ -1,0 +1,26 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+<head></head>
+<body>
+	<h3>EMPLOYEE DATA PAGE</h3>
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<th>NAME</th>
+			<th>SAL</th>
+			<th>DEPT</th>
+			<th>HRA</th>
+			<th>TA</th>
+			<th>OPERATIONS</th>
+		</tr>
+		<tr th:each="ob:${list}">
+			<td th:text="${ob.empId}"></td>
+			<td th:text="${ob.empName}"></td>
+			<td th:text="${ob.empSal}"></td>
+			<td th:text="${ob.empDept}"></td>
+			<td th:text="${ob.empHra}"></td>
+			<td th:text="${ob.empTa}"></td>
+			<td><a href="#">DELETE</a> | <a href="#">EDIT</a></td>
+		</tr>
+	</table>
+</body>
+</html>
