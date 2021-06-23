@@ -1,0 +1,35 @@
+2021-06-23 13:09:55.050  INFO 19336 --- [restartedMain] vcLayerApplicationMiniProjectApplication : Starting SpringBootWebMvcLayerApplicationMiniProjectApplication using Java 14.0.1 on LAPTOP-V8PP54HG with PID 19336 (D:\BooTWithMicroService-Project\SpringBootWebMVC-LayerApplication-MiniProject(Modifiy-3(Ajax Test))\target\classes started by suryakanta in D:\BooTWithMicroService-Project\SpringBootWebMVC-LayerApplication-MiniProject(Modifiy-3(Ajax Test)))
+2021-06-23 13:09:55.052 DEBUG 19336 --- [restartedMain] vcLayerApplicationMiniProjectApplication : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-23 13:09:55.052  INFO 19336 --- [restartedMain] vcLayerApplicationMiniProjectApplication : No active profile set, falling back to default profiles: default
+2021-06-23 13:09:55.103  INFO 19336 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\paika\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.1.0.0\ojdbc8-21.1.0.0.jar referenced one or more files that do not exist: file:/C:/Users/paika/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.1.0.0/oraclepki.jar
+2021-06-23 13:09:55.103  INFO 19336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-23 13:09:55.103  INFO 19336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-23 13:09:56.089  INFO 19336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-23 13:09:56.157  INFO 19336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2021-06-23 13:09:57.462  INFO 19336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-23 13:09:57.473  INFO 19336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-23 13:09:57.474  INFO 19336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-23 13:09:57.637  INFO 19336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-23 13:09:57.637  INFO 19336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2533 ms
+2021-06-23 13:09:57.761  INFO 19336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyCp - Starting...
+2021-06-23 13:10:00.341  INFO 19336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyCp - Start completed.
+2021-06-23 13:10:00.778  INFO 19336 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-23 13:10:01.104  INFO 19336 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-23 13:10:01.730  INFO 19336 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-23 13:10:01.874  INFO 19336 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-23 13:10:03.228  INFO 19336 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-23 13:10:03.246  INFO 19336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-23 13:10:03.565  WARN 19336 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-23 13:10:03.852  INFO 19336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-23 13:10:03.923  INFO 19336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-23 13:10:03.931  INFO 19336 --- [restartedMain] vcLayerApplicationMiniProjectApplication : Started SpringBootWebMvcLayerApplicationMiniProjectApplication in 9.351 seconds (JVM running for 13.495)
+2021-06-23 13:10:53.344  INFO 19336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-23 13:10:53.344  INFO 19336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-23 13:10:53.345  INFO 19336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-23 13:11:14.258  INFO 19336 --- [http-nio-8080-exec-7] c.n.surya.controller.EmployeeController  : ENTER INTO SAVE METHOD!
+2021-06-23 13:11:15.083  INFO 19336 --- [http-nio-8080-exec-7] c.n.surya.controller.EmployeeController  : ABOUT TO LEAVE SAVE METHOD
+2021-06-23 13:11:27.784  INFO 19336 --- [http-nio-8080-exec-4] c.n.surya.controller.EmployeeController  : ENTERD INTO DELETE METHOD
+2021-06-23 13:11:28.002 DEBUG 19336 --- [http-nio-8080-exec-4] c.n.surya.controller.EmployeeController  : Employee '1' Deleted!
+2021-06-23 13:11:28.008  INFO 19336 --- [http-nio-8080-exec-4] c.n.surya.controller.EmployeeController  : LEAVING FROM DELETE METHOD
+2021-06-23 13:11:58.334  INFO 19336 --- [http-nio-8080-exec-7] c.n.surya.controller.EmployeeController  : ENTER INTO SAVE METHOD!
+2021-06-23 13:11:59.130  INFO 19336 --- [http-nio-8080-exec-7] c.n.surya.controller.EmployeeController  : ABOUT TO LEAVE SAVE METHOD
